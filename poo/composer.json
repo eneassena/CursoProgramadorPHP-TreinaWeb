@@ -1,0 +1,13 @@
+{
+    "name": "administradores1/poo",
+    "autoload": {
+        "psr-4": {
+            "Poo\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "eneassena",
+        "email": "desenvolvedoreneas2000@gmail.com"
+    }],
+    "require": {}
+}
