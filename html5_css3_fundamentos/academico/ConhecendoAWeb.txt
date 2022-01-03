@@ -1,0 +1,42 @@
+2 - Conchecendo a Web - Resumo
+
+Internet
+Rede de computadores conectados
+
+Servidores 
+computadores em algum lugar do mundo que fornecem serviços pela Web
+
+Clientes
+Dispositivos que consomem serviços dos Servidores
+
+IP
+Número que server para identificação de dispositivos na rede, como por ex: 172.65.0.10
+
+Nome de Domínio
+Identificação mais legível de um computador na rede, ex: www.treinaweb.com.br
+
+DNS
+Sistema que traduz um nome de domínio para ip
+
+Como funciona a web?
+Servidores armazena arquivos e dados, que são enviados aos clientes que os requisitarem.
+
+
+HiperTexto
+Apresentação de informações de modo que o leitor tenha a liberdade de escolher o fluxo de
+leitura
+
+Navegadores(Browsers)
+Softwares usados por clientes para navegar pela web, consumindo arquivos e serviços dos Servidores
+e interpretando HTML, CSS e JavaScript.
+
+HTML
+Linguagem de marcação de HyperTexto, usada para estruturar documentos.
+
+CSS
+Folhas de estilo em cascata. O CSS é usado para estilizar elementos HTML, permitindo até mesmo
+criar animações e efeitos 3D.
+
+JavaScript
+Linguagem de programação que pode ser unterpretada pelo navegador para adicionar comportamento 
+ás páginas web.
