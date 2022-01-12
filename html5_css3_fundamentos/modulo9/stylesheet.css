@@ -1,0 +1,23 @@
+body {
+    /* background-color: rgb(0, 255, 0, .5); */
+    /* background-color: rgb(0 255 0); */
+    background-color: #c4c4c412;
+}
+
+h1:not(.abc){
+    background-color: hsla(60, 30%, 20%, 0.7);
+    /* background-color: white; */
+    /* color: rgb(150,145,15); */
+    /* color: white; */
+    padding: 10px 15px;
+    border-color: red;
+    border-width: 5px;
+    border-style: groove;
+    border-radius: 20px;
+    /* opacity: 0.5; */
+}
+
+/* unidades de medidas */
+/* cores por nome, white, green, yellow */
+/* cores por rgb,rgba: #F0F, #236512, #FF0fd1 */
+/* cores com hsl, hsl(80, 50%, 10%) */

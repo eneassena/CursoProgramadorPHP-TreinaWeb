@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Pacifico;
+    src: url('./fontes/Pacifico-Regular.ttf');
+}
+@font-face {
+    font-family: TheNautigalBold;
+    src: url('./fontes/TheNautigal-Bold.ttf');
+}
+@font-face {
+    font-family: TheNautigalRegular;
+    src: url('./fontes/TheNautigal-Regular.ttf');
+}
+
+p {
+    letter-spacing: 1px;
+    word-spacing: 1;
+    /* line-height: .8; */
+    /* word-wrap: break-word; */
+    /* word-break: break-all; */
+    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
+    /* white-space: nowrap; */
+
+}
+
+
+
+/* letras, palavras, linha */
+
+
+
+
+
+
+
+
+
+p {
+    /* font-size: 18pt;
+    color: #000;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px red,
+        -1px 1px 1px red,
+        1px -1px 1px red,
+        -1px -1px 1px red;
+    text-indent: 20px;
+    text-align: left; */
+    /* text-overflow: clip; */
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* text-align-last: left; */
+    /* font-family: Pacifico, Helvetica, sans-serif; */
+    /* font-family: Arial; */
+    /* font-family: Helvetica; */
+    /* font-family: cursive; */
+    /* font-family: serif; */
+}

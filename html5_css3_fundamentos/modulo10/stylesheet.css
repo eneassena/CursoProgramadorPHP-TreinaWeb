@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    display: inline-block;
+    background-color: green;
+    width: calc(50% + 30%/10);
+    height: 100px;
+}
+
+h1 {
+    font-size: 18pt;
+    /* background-color: grey;
+    width: 10em;
+    font-size: 20px; */
+}
+
+
+/*
+    Medidas
+    vw: viewport em largura
+    vh: viewport em altura
+    px medida absoluta
+    em: medida calculada aparti da font-size especificada no elemento a qual essa propriedade esta sendo aplicada
+    rem: medida calculada aparti do elemento raiz do documento
+ */
