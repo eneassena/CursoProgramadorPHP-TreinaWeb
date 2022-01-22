@@ -79,11 +79,11 @@ WSGI_APPLICATION = 'django_rest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_rest',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'POST': 3306,
+        'NAME': 'nome_db',
+        'HOST': 'host_db',
+        'PORT': 'porta_db',
+        'USER': 'usuario_db.',
+        'PASSWORD': 'senha_db'
     }
 }
 
@@ -141,6 +141,6 @@ REST_FRAMEWORK = {
 }
 
 OAUTH2_PROVIDER = {
-  'ACCESS_TOKEN_EXPIRE_SECONDS' : 120,
+  'ACCESS_TOKEN_EXPIRE_SECONDS' : 60,
   'OAUTH2_BACKEND_CLASS': 'oauth2_provider.oauth2_backends.JSONOAuthLibCore',
 }
