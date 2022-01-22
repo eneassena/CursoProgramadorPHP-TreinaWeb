@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Módulo 09 Cores</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        
+        table>tr th td {
+            border: 1px solid rgba(0, 0, 0, .5);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        0 <input type="range" id='a' value="50"> 100 +
+        <input type="number" id='b' value="50"> =
+        <output name='x' for="a b"></output>
+    </form>
+
+    <h1>Apresentação de dados </h1>
+
+    <progress class="p" value="50" max="100"></progress>
+
+    <meter value="51" max="100" low="30" high="50"></meter>
+
+    <ol type="I">
+        <li>Lagosta</li>
+        <li>Suchime</li>
+        <li>Rubalo</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>Pizza</li>
+        <li>Lazanha</li>
+        <li>Bolo</li>
+        <li>Torta sonho de valsa</li>
+    </ul>
+    <hr>
+    <dl>
+        <dd>HipHop</dd>
+        <dt>Racionais</dt>
+        <dt>Sabotagem</dt>
+        <dt>Tribo da Periferia</dt>
+        <dd>Axe</dd>
+        <dt>Claudia leite</dt>
+        <dt>Ivete Sangalo</dt>
+    </dl>
+    <hr>
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td colspan="2">1</td>
+            <!-- <td>2</td> -->
+            <td rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <!-- <td>6</td> -->
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <!-- <td>9</td> -->
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Categoria</th>
+            <th>Produto</th>
+            <th colspan="2">Serviços</th>
+        </tr>
+
+        <tr>
+            <td rowspan="6" colspan="1">Eletrodomestico</td>
+        </tr>
+        <tr>
+            <td>Liquidificador</td>
+            <td><a href="#">Novo Recursos</a></td>
+            <td><a href="#">Pagamento</a></td>
+        </tr>
+        <tr>
+            <td>Liquidificador</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+        <tr>
+            <td>Liquidificador</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+        <tr>
+            <td>Liquidificador</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+        <tr>
+            <td>Fitradeira eletrica
+                <a href="#">link</a>
+                <td><a href="#">Não disponivel</a></td>
+                <td><a href="#">Não disponivel</a></td>
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="4">Calçados</td>
+        </tr>
+        <tr>
+            <td>Sandalhas</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+        <tr>
+            <td>Bota</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+        <tr>
+            <td>Tenis</td>
+            <td><a href="#">Não disponivel</a></td>
+            <td><a href="#">Não disponivel</a></td>
+        </tr>
+    </table>
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>

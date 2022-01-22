@@ -1,0 +1,17 @@
+ table {
+     border-collapse: collapse;
+ }
+ 
+ table th,
+ td {
+     border: 1px solid rgb(207, 207, 207);
+     padding: 8px;
+ }
+ 
+ table td {
+     text-align: center;
+ }
+ 
+ table th {
+     background-color: green;
+ }
